@@ -19,6 +19,18 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+
+    // Spring Boot Web
+    implementation("org.springframework.boot:spring-boot-starter-web")
+
+    // Spring Data JPA Dependency
+    implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+    runtimeOnly("com.h2database:h2")
+
+    // swagger
+    implementation ("io.springfox:springfox-boot-starter:3.0.0")
+    implementation ("io.springfox:springfox-swagger-ui:3.0.0")
+
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
