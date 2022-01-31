@@ -7,7 +7,6 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc
 
 @SpringBootApplication
 @EnableWebMvc
-// test commit
 class AutotradingApplication
 
 fun main(args: Array<String>) {
